@@ -1,0 +1,12 @@
+## MRDS Data Processing Log
+
+### 2023-10-15
+- Initial dataset loaded from USGS MRDS
+- Applied filtering: 4823 sites retained
+- Created state mapping: 
+   Prospect → 0, Active → 1, 
+   Past Producer → 2, Closed → 3
+
+### 2023-10-20
+- Geospatial validation completed
+- Final dataset exported to CSV
